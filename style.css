@@ -10,3 +10,52 @@ body {
   background: #344a72;
   color: #fff;
 }
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header ul {
+  display: flex;
+  list-style: none;
+  margin: 20px;
+}
+
+#logo {
+  font-family: 'Whisper', cursive;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+li {
+  padding-right: 10px;
+}
+
+a {
+  color: pink;
+}
+
+a:visited {
+  color: pink;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: black;
+  max-width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.heading {
+  color: brown;
+}
