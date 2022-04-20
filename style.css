@@ -10,3 +10,20 @@ body {
   background: #344a72;
   color: #fff;
 }
+
+#header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #header ul {
+    display: flex;
+    list-style: none;
+    margin: 20px;
+  }
+
+  #logo {
+    font-family: 'Whisper', cursive;
+    font-size: 40px;
+    cursor: pointer;
+  }
